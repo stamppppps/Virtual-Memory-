@@ -1,8 +1,9 @@
 import { useState } from 'react';
+import About from './components/About';
 import Header from './components/Header';
 import Settings from './components/Settings';
 import Simulation from './components/Simulation';
-import About from './components/About';
+
 
 function App() {
   const [page, setPage] = useState('home');
