@@ -12,7 +12,7 @@ function Settings({ setPage, setSettings }) {
   };
 
   return (
-    <div className="mt-10 p-6 bg-white bg-opacity-90 rounded-lg shadow-xl mx-auto max-w-lg">
+    <div className="mt-10 p-6 bg-white bg-opacity-90 rounded-lg shadow-xl mx-auto max-w-lg text-black">
       <h2 className="text-3xl font-bold text-center text-indigo-700 mb-6">Settings</h2>
 
       {/* ฟอร์มการเลือก Page Replacement Algorithm */}
@@ -57,7 +57,7 @@ function Settings({ setPage, setSettings }) {
       <div className="mt-6 text-center">
         <button
           onClick={handleApply}
-          className="py-3 px-6 bg-indigo-600 text-white rounded-lg shadow-lg hover:bg-indigo-700 transition duration-300"
+          className="py-3 px-6 bg-green-700 text-white rounded-lg shadow-lg hover:bg-green-600 transition duration-300"
         >
           Apply Settings
         </button>

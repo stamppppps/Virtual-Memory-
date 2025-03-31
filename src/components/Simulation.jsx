@@ -70,7 +70,7 @@ function Simulation({ setPage, settings }) {
 
       {/* แสดงผลการแปลที่อยู่ */}
       {translationResults && (
-        <div className="mt-8 space-y-6">
+        <div className="mt-8 space-y-6 text-black">
           <div className="bg-indigo-100 p-4 rounded-lg shadow-md">
             <h3 className="text-xl font-semibold text-indigo-600">TLB Table</h3>
             <p>{translationResults.tlbTable}</p>
